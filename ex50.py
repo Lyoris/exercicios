@@ -1,0 +1,11 @@
+print('-='*15)
+sexo =input('Digite seu Gênero[M/F]').strip().upper()
+print('-='*15)
+while sexo not in ['M', 'F']:
+    print('-=' * 15)
+    print('Gênero invalido, digite novamente!')
+    print('-=' * 15)
+    sexo = input('Digite seu Gênero[M/F]').strip().upper()
+    print('-=' * 15)
+print('Seu gênero foi registrado com sucesso, obrigado!')
+print('-='*15)

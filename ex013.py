@@ -1,0 +1,5 @@
+s =float(input('qual o salário do funcionario? R$'))
+p =float(input('qual a porcentagem de aumento?'))
+n =str(input('qual o nome do funcionario?'))
+N = s + (s * p/100)
+print('o funcionario ({}) que ganhava R${}, com {}% de aumento, passa a receber R${:.2f}'.format(n, s, p, N))
